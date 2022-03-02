@@ -26,7 +26,7 @@ a {
 }
 
 .header {
-    height: 500px;
+    height:300px;
     width: auto;
     padding: 0 160px;
     background: #1f2937;
@@ -49,7 +49,7 @@ a {
 }
 
 .content h1, .content p, .content button {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .button {
@@ -66,4 +66,62 @@ a {
 
 .button:hover {
     background: #5a96f7
+}
+
+.section {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.hero {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+section div div img {
+    border: 3px solid blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.quote {
+    background: #E5E7Eb;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    height: 300px;
+    text-align: center;
+    padding: 100px 200px;
+}
+
+.quote p{
+    text-align: right;
+}
+
+.final {
+    margin: 50px 200px;
+    padding: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+.final button {
+    border: 2px solid white;
 }
